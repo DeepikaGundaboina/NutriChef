@@ -1,0 +1,127 @@
+/* General container */
+.recipe-container {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .back-button {
+    background-color: #1e40af; /* Deep blue for better visibility */
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(30, 64, 175, 0.4); /* Soft glow */
+  }
+  
+  .back-button:hover {
+    background-color: #f6f7fa;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(30, 64, 175, 0.5);
+  }
+  
+  
+  /* Recipe card */
+  .recipe-card {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Recipe title */
+  .recipe-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Recipe image */
+  .recipe-image {
+    width: 400px; /* Set a fixed width for consistency */
+    max-width: 100%; /* Make it responsive on smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px; /* Limit vertical height */
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 1rem auto 1.5rem auto; /* Center the image horizontally */
+    display: block;
+  }
+  
+  /* Summary */
+  .recipe-summary {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4a5568;
+    margin-bottom: 2rem;
+    text-align: justify;
+  }
+  
+  /* Ingredients section */
+  .ingredients-section {
+    margin-top: 2rem;
+  }
+  
+  .ingredients-list {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .ingredient-item {
+    font-size: 1.05rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Instructions section */
+  .instructions-section {
+    margin-top: 2rem;
+  }
+  
+  .recipe-instructions {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #2d3748;
+    text-align: justify;
+  }
+  
+  /* Nutritional section */
+  .nutrition-section {
+    margin-top: 2rem;
+  }
+  
+  .nutrition-list {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+  
+  .nutrition-item {
+    font-size: 1.05rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #2c5282;
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbd5e0;
+    padding-bottom: 0.25rem;
+  }
+  
+  

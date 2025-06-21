@@ -39,6 +39,35 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+# NutriChef 🍽️
+
+NutriChef is a full-stack web application that allows users to search recipes by ingredients and view detailed nutritional insights.
+
+## 🔧 Tech Stack
+- React.js (Frontend)
+- Node.js + Express.js (Backend)
+- MySQL (Database)
+- Spoonacular API (Recipe & Nutrition Data)
+
+## 🚀 Features
+- User Registration & Login (JWT Auth)
+- Search Recipes by Ingredients
+- View Recipe Details with Nutrition
+- Responsive UI
+
+## 📦 Installation
+```bash
+# Backend
+cd server
+npm install
+node server.js
+
+# Frontend
+cd client
+npm install
+npm start
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
